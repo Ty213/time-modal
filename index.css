@@ -1,0 +1,81 @@
+ * {
+ 	margin: 0 auto;
+ }
+ body {
+ 	background-color: #3A405A;
+ }
+ .header {
+ 	margin-left: 1%;
+	height: 20vh;
+}
+.header__text {
+	color: #AEC5EB;
+	font-size: 2em;
+}
+.aboutUs {
+	margin-left: 1%;
+}
+.aboutUs__text {
+	margin-top: 10%;
+	color: #AEC5EB;
+	font-size: 2.3em;
+}
+.aboutUs__hlight {
+	color: #B6D094 ;
+}
+.button {
+	margin-top: 2vh;
+    background-color: #754668;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.flower {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 42vw;
+	height: 99.9vh;
+	background: url('img/flower.jpg');
+}
+ .modal {
+ 	position: absolute;
+ 	left: 35%;
+ 	top: 10%;
+ 	z-index: 20;
+ 	border-radius: 5%;
+ 	margin-top: 10%;
+    display: none; 
+    width: 300px;
+    height: 300px;
+    background-color: #754668;
+}
+.modal__close {
+	text-align: right;
+	padding-right: 2%;
+	font-size: 2em;
+	color: #AEC5EB;
+}
+.modal__greet {
+	padding-left: 2%;
+	color: #E1AA7D;
+	font-size: 2em;
+}
+.modal__input {
+	text-align: center;
+	height: 5vh;
+	width: 95%;
+	margin-top: 40px;
+}
+@media all and (max-width: 480px) {
+	 .modal {
+	 	left: 10%;
+	}
+}
+@media all and (max-width: 840px) {
+	 .flower {
+	 	display: none;
+	 }
+}
